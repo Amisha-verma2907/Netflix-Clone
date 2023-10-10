@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav">
+      <div class="nav_left">
+        <a href="index.html">
+        <img class="nav_logo" src="./images/Netflix-Logo1.png" alt=""></a>
+        <ul class="tools">
+            <li class="nav-items">Home</li>
+            <li class="nav-items">Tv Shows</li>
+            <li class="nav-items">Movies</li>
+            <li class="nav-items">News & Popular</li>
+            <li class="nav-items">My List</li>
+            <li class="nav-items">Browse by languages</li>
+        </ul>
+      </div>
+      <div class="nav_right">
+        <i class="fa-solid fa-magnifying-glass icon"></i>
+        <i class="fa-solid fa-bell icon"></i>
+        <img src="./images/netflix avatar.png" class="nav_avatar" alt="">
+      </div>
+    </div>
+
+    <!-- hero -->
+    <header id="hero">
+      <div id="hero_contents">
+        <h1 id="hero_title"></h1>
+        <div id="hero_buttons">
+        <button id="hero_button">Play</button>
+        <button id="hero_button">My List</button>
+      </div>
+      <p id="hero_description"></p>
+      </div>
+      <div id="hero_Bottom"></div>
+    </header>
+
+    <!-- row -->
+    <div id="headrow">
+      <div class="row">
+        <h2 class="row__title"></h2>
+        <div class="row__posters"> </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
